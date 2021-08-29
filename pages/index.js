@@ -20,6 +20,7 @@ export default function Home({getSiteConfig, categories}) {
       <>
         <HeaderMenu categories={categories} logoUrl={`${process.env.NEXT_PUBLIC_HOST_URL}/content/published/api/v1.1/assets/${siteConfig.fields.logo.id}/native/flowserve-logo.png?channelToken=${process.env.NEXT_PUBLIC_OCE_CHANNELTOKEN}`} />
         <img style={{width: '100%'}} src={`${process.env.NEXT_PUBLIC_HOST_URL}/content/published/api/v1.1/assets/${siteConfig.fields.landing_page.id}/Large/home-page.png?format=jpg&type=responsiveimage&channelToken=${process.env.NEXT_PUBLIC_OCE_CHANNELTOKEN}`} alt="" />
+        <img style={{width: '100%'}} src={`${process.env.NEXT_PUBLIC_HOST_URL}/content/published/api/v1.1/assets/${siteConfig.fields.footer.id}/Large/home-page.png?format=jpg&type=responsiveimage&channelToken=${process.env.NEXT_PUBLIC_OCE_CHANNELTOKEN}`} alt="" />
         {/* <img style={{width: '100%'}} src={`${process.env.NEXT_PUBLIC_HOST_URL}/content/published/api/v1.1/assets/${siteConfig.fields.footer.id}/Large/footer.png?format=jpg&type=responsiveimage&channelToken=${process.env.NEXT_PUBLIC_OCE_CHANNELTOKEN}`} alt="" /> */}
       </>
      }
